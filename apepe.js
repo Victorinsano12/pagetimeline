@@ -113,7 +113,13 @@ function openModal(index){
   renderModal(index);
   modalOverlay.classList.add("is-open");
   modalOverlay.setAttribute("aria-hidden", "false");
+
+  // ✅ Bloquea el scroll del fondo, pero el modal/overlay ya tiene scroll propio
   document.body.style.overflow = "hidden";
+
+  // ✅ lleva arriba del modal (por si abriste desde abajo)
+  modalOverlay.scrollTop = 0;
+
   modalClose.focus();
 }
 

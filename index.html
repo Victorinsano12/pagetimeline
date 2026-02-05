@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Línea Temporal Interactiva</title>
+  <link rel="stylesheet" href="estilos.css" />
+</head>
+
+<body>
+  <div class="wrap" id="top">
+    <header class="hero">
+      <h1 class="title">GRANDES HECHOS HISTÓRICOS</h1>
+      <div class="subtitle">⏳ Línea de tiempo interactiva</div>
+
+      <div class="controls" aria-label="Controles de navegación">
+        <button class="btn" id="prevBtn" type="button" aria-label="Anterior">⟵ Anterior</button>
+        <button class="btn" id="nextBtn" type="button" aria-label="Siguiente">Siguiente ⟶</button>
+      </div>
+
+      <p class="hint">Usa ← → para cambiar de hito, Enter para abrir, ESC para cerrar.</p>
+    </header>
+
+    <!-- TIMELINE CARD -->
+    <section class="timelineCard" aria-label="Línea de tiempo interactiva">
+      <div class="timelineTop">
+        <div class="timelineTitle">Línea de tiempo</div>
+        <div class="timelineHelp">Tip: si no caben, desliza horizontalmente</div>
+      </div>
+
+      <div class="trackWrap" aria-hidden="true">
+        <div class="track">
+          <div class="progress" id="progress"></div>
+        </div>
+      </div>
+
+      <div class="nodesWrap">
+        <div class="nodes" id="nodes" role="tablist" aria-label="Hitos"></div>
+      </div>
+    </section>
+
+    <footer class="foot">
+      <span class="dotnote"></span>
+      <span>Haz clic en un hito para ver el detalle con imagen.</span>
+    </footer>
+  </div>
+
+  <!-- MODAL -->
+  <div class="modal-overlay" id="modalOverlay" aria-hidden="true">
+    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal-close" id="modalClose" type="button" aria-label="Cerrar modal">✕</button>
+
+      <div class="modal-head">
+        <div class="modal-badge" id="modalBadge">1</div>
+        <div class="modal-head-text">
+          <h2 class="modal-title" id="modalTitle">Título</h2>
+          <p class="modal-summary" id="modalSummary">Resumen</p>
+        </div>
+      </div>
+
+      <div class="modal-body">
+        <div class="modal-left">
+          <div class="card card--text">
+            <h3 class="section-title">Descripción</h3>
+            <div class="modal-content prose" id="modalContent"></div>
+
+            <div class="divider"></div>
+
+            <div class="meta-grid" aria-label="Detalles del hito">
+              <div class="meta-pill">
+                <span class="meta-k">Periodo</span>
+                <span class="meta-v" id="modalPeriod">—</span>
+              </div>
+              <div class="meta-pill">
+                <span class="meta-k">ID</span>
+                <span class="meta-v" id="modalId">—</span>
+              </div>
+            </div>
+
+            <div class="modal-actions">
+              <button class="pill" id="modalPrev" type="button">⟵ Anterior</button>
+              <button class="pill" id="modalNext" type="button">Siguiente ⟶</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal-right">
+          <div class="card card--media">
+            <div class="media-header">
+              <h3 class="section-title">Imagen / recursos</h3>
+              <span class="chip" id="modalChip">Recurso</span>
+            </div>
+
+            <div class="media-frame" id="modalMedia"></div>
+
+            <p class="media-hint">
+           Imagenes representativas del tema, generadas con IA.
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="apepe.js" defer></script>
+</body>
+</html>

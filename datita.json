@@ -1,0 +1,90 @@
+[
+  {
+    "id": "hito-1",
+    "num": 1,
+    "tag": "S. XVI–XVII",
+    "color": "#6f86ff",
+    "soft": "#dfe6ff",
+    "title": "Surgimiento del capitalismo moderno",
+    "summary": "Transición desde el feudalismo hacia un mercado más abierto.",
+    "content": "El surgimiento del capitalismo moderno marcó el paso de una economía feudal cerrada a un sistema basado en el mercado y la propiedad privada.\n\nLa expansión del comercio, la acumulación de capital y el fortalecimiento de la burguesía impulsaron intercambios entre regiones y continentes, sentando las bases de la globalización económica.\n\nEsto también aceleró el desarrollo de ciudades comerciales, bancos y mecanismos financieros que facilitaron el crédito y la inversión.",
+    "image": "./img/capitalismo.png"
+  },
+  {
+    "id": "hito-2",
+    "num": 2,
+    "tag": "1760–1840",
+    "color": "#63d2d7",
+    "soft": "#daf6f7",
+    "title": "Revolución Industrial",
+    "summary": "Cambio drástico en producción, ciudades y trabajo.",
+    "content": "La Revolución Industrial transformó la producción mediante la mecanización y el uso de fábricas, aumentando la productividad y reduciendo costos.\n\nEsto permitió producir bienes en masa y exportarlos a otros países, impulsando el comercio internacional.\n\nSin embargo, también generó desigualdades sociales, explotación laboral y fuertes migraciones campo-ciudad.",
+    "image": "./img/revolucion-industrial.png"
+  },
+  {
+    "id": "hito-3",
+    "num": 3,
+    "tag": "S. XIX",
+    "color": "#9ad66a",
+    "soft": "#e9f7dc",
+    "title": "Expansión del libre comercio",
+    "summary": "Aumento del intercambio global y cadenas comerciales.",
+    "content": "La expansión del libre comercio promovió la reducción de barreras arancelarias y el intercambio de bienes entre países.\n\nEsto impulsó la integración de mercados, la especialización productiva y una mayor interdependencia económica.\n\nTambién consolidó rutas marítimas y ferroviarias que abarataron el transporte y acortaron tiempos de distribución.",
+    "image": "./img/expansion-libre-comercio.png"
+  },
+  {
+    "id": "hito-4",
+    "num": 4,
+    "tag": "S. XX",
+    "color": "#ffd35f",
+    "soft": "#fff1c6",
+    "title": "Socialismo y economías planificadas",
+    "summary": "Modelos alternativos al capitalismo industrial.",
+    "content": "Las economías planificadas surgieron como alternativa al capitalismo, priorizando el control estatal de la producción y el comercio.\n\nAunque lograron avances sociales en educación y salud, limitaron el intercambio internacional y redujeron la integración económica global en ciertos periodos.\n\nEste modelo también influyó en la geopolítica y el tipo de alianzas comerciales entre países.",
+    "image": "./img/socialismo-economias.png"
+  },
+  {
+    "id": "hito-5",
+    "num": 5,
+    "tag": "1947–1991",
+    "color": "#f6a07c",
+    "soft": "#ffe0d6",
+    "title": "Guerra Fría",
+    "summary": "Rivalidad geopolítica e ideológica entre bloques.",
+    "content": "Durante la Guerra Fría, el mundo se dividió en dos bloques económicos e ideológicos.\n\nEsta división limitó comercio, cooperación e intercambio tecnológico entre países alineados en bandos opuestos.\n\nAun así, impulsó innovación acelerada en ciencia, industria y comunicaciones por competencia estratégica.",
+    "image": "./img/guerra-fria.png"
+  },
+  {
+    "id": "hito-6",
+    "num": 6,
+    "tag": "1989",
+    "color": "#ff8ea2",
+    "soft": "#ffd6de",
+    "title": "Caída del Muro de Berlín",
+    "summary": "Hito que reconfigura Europa y el orden mundial.",
+    "content": "La caída del Muro de Berlín simbolizó el fin de la división ideológica en Europa.\n\nEste hecho facilitó la apertura económica de países del este y su integración al mercado global.\n\nTambién aceleró reformas políticas y la reconfiguración de bloques económicos regionales.",
+    "image": "./img/caida-muro-berlin.png"
+  },
+  {
+    "id": "hito-7",
+    "num": 7,
+    "tag": "1991",
+    "color": "#f2a5e6",
+    "soft": "#ffe0fb",
+    "title": "Fin de la Guerra Fría",
+    "summary": "Disolución de la URSS y transición del orden global.",
+    "content": "El fin de la Guerra Fría y la disolución de la URSS marcaron el predominio del sistema capitalista.\n\nMuchos países adoptaron economías de mercado y se integraron al comercio internacional.\n\nEsto impulsó acuerdos multilaterales y una expansión de cadenas globales de producción.",
+    "image": "./img/finguerrafria.png"
+  },
+  {
+    "id": "hito-8",
+    "num": 8,
+    "tag": "1990–hoy",
+    "color": "#b59cff",
+    "soft": "#eae3ff",
+    "title": "Globalización económica contemporánea",
+    "summary": "Cadenas globales, digitalización e interdependencia.",
+    "content": "La globalización contemporánea se basa en tecnología, logística avanzada y flujos financieros globales.\n\nConectó mercados como nunca antes, pero también generó desafíos: desigualdad, dependencia tecnológica y crisis sistémicas.\n\nLa digitalización aceleró el comercio electrónico, la economía de plataformas y la automatización industrial.",
+    "image": "./img/Globalizacioneco.png"
+  }
+]
